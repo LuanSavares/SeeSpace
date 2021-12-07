@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>SeeSpace</title>
+		<meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
+		<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/de.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script src="js/modernizr.custom.js"></script>
+
+		<!--Favicon-->
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+
+
+		<!-- bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<style type="text/css">
+			footer#rodape {
+
+			clear: both;
+/*conteudo seja mostrado fora da divisão*/
+		border-top: 1px solid #606060;
+		
+		}
+		footer#rodape p{
+			text-align: center;
+			
+		}
+		</style>
+
+
+
+	</head>
+	<body>
+    <!-- Inicio menu-->
+      <div class="container">
+        <ul id="gn-menu" class="gn-menu-main">
+          <li class="gn-trigger">
+            <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+            <nav class="gn-menu-wrapper">
+
+              <!-- Inicio menu lateral-->
+                <div class="gn-scroller">
+                  <ul class="gn-menu">
+
+                    <li>
+                      <a href="via.html">&nbsp;&nbsp;&nbsp;<img src="img/10.jpg" class="menu3">
+                        &nbsp;Via Láctea
+                      </a>
+                      <!-- <ul class="gn-submenu"> Submenu </ul> -->
+                    </li>
+
+                    <li>
+                      <a href="planetas.html">&nbsp;&nbsp;&nbsp;<img src="img/terra.png" class="menu3">
+                        &nbsp;Planetas
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="Satelites.html">&nbsp;&nbsp;&nbsp;<img src="img/satelite.png" class="menu3">
+                        &nbsp;Satélites
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="estrelas.html">&nbsp;&nbsp;&nbsp;<img src="img/so.png" class="menu2">
+                        &nbsp;Estrelas
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="cientistas.html">&nbsp;&nbsp;&nbsp;<img src="img/al.png" class="menu4">
+                        &nbsp;Ciêntistas Famosos
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="teorias.html">&nbsp;&nbsp;&nbsp;<img src="img/id.png" class="menu4">
+                        &nbsp;Teorias
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="buraco.html">&nbsp;&nbsp;&nbsp;<img src="img/bu.jpg" class="menu3">
+                        &nbsp;Buraco negro
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="buracomi.html">&nbsp;&nbsp;&nbsp;<img src="img/bus.jpg" class="menu3">
+                        &nbsp;Buraco de minhoca
+                      </a>
+                    </li>
+                      
+                  </ul>
+                </div><!-- /gn-scroller -->
+        <!-- Fim menu lateral-->
+              </nav>
+            </li>
+            <!-- Inicio menu superior -->
+            <li><a href="sobre.html">&nbsp;Sobre nós</a></li>
+            <li><a href="index.html"><span>&nbsp;Notícias</span></a></li>
+            <li><a href="glossario.html"><span>Sumário</span></a></li>
+          </ul>
+          <header>
+				<br><h1><center><br><br> Ciêntistas Famosos</center></h1>	
+			</header> 
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+		
+		<hr class="hr">
+		<p class="sobre">Pense nisso: se não fossem por grandes cientistas, astrônomos que muitas vezes dominam vários campos da ciência, nós acreditaríamos em muito mais coisas sobrenaturais do que hoje. Alienígenas seriam uma explicação ainda mais comum para qualquer fenômeno que agora já entendemos bem. Por terem iluminado nosso conhecimento e nos mostrado o mundo como ele realmente é, aqui fica nossa homenagem a grandes mentes que passaram pela Terra:</p>
+		<hr class="hr">
+		<center>
+		<p class="sobre"><b>Eratóstenes</b></p>
+		
+		<table>
+			<tr>
+				<td>
+					<img src="img/er.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Numa época em que a maioria das pessoas pensava que o mundo era plano, o matemático, astrônomo e geógrafo grego Eratóstenes (276 aC -195 aC) usou o sol (na verdade, as sombras que ele causa) para medir o tamanho da Terra e concluir que ela era redonda. Sua medida (39.690 km) estava apenas 340 km errada em relação à verdadeira medição.</p>
+				</td>
+			</tr>
+		</table>
+
+		<hr class="hr">
+		<p class="sobre"><b>Ptolomeu</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/pi.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O antigo astrônomo e matemático grego Cláudio Ptolomeu (90 dC – 168 dc) criou um modelo do sistema solar em que o sol, as estrelas e outros planetas giravam em torno da Terra. Conhecido como o sistema de Ptolomeu, foi reconhecido como o correto por centenas de anos, embora estivesse errado. Ainda assim, esse grande cientista foi considerado o primeiro “cientista celeste” e tem colaborações em matemática, astrologia, astronomia, geografia, cartografia, óptica e teoria musical. Sua obra mais conhecida é o Almagesto (que significa “O grande tratado”), um tratado de astronomia que reúne os trabalhos e observações de Aristóteles, Hiparco, Posidônio e outros, com tabelas de observações de estrelas e planetas e com um grande modelo geométrico do sistema solar, baseado na cosmologia aristotélica.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Abd al-Rahman al-Sufi</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ab.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo persa Abd al-Rahman al-Sufi (903 dc – 986 dc), ou Azophi para os ocidentais, fez a primeira observação conhecida de um grupo de estrelas fora da Via Láctea, a galáxia de Andrômeda. Sua obra o “Livro das Estrelas Fixas” permitiu à astronomia moderna fazer comparações úteis na pesquisa das variações do brilho das estrelas.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Copérnico</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/co.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">No século 16, na Polônia, o astrônomo Nicolau Copérnico (1473 – 1543) propôs um modelo do sistema solar em que a Terra girava ao redor do sol. O modelo não era totalmente correto, já que os astrônomos da época ainda tinham dificuldade em determinar a órbita de Marte, mas acabou mudando completamente a nossa visão do sistema solar. O pai da astronomia moderna revolucionou o pensamento ocidental ao tirar o homem do centro do universo (antropocentrismo), e por isso foi considerado um herege pela Igreja.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Kepler</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ke.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Usando medições detalhadas do caminho dos planetas feitas pelo astrônomo dinamarquês Tycho Brahe, Johannes Kepler (1571 – 1630) determinou que os planetas viajavam ao redor do sol em elipses, não círculos. Para chegar a essa descoberta, ele calculou três leis que envolvem os movimentos dos planetas, que os astrônomos usam em seus próprios cálculos até hoje. Kepler agora é o nome de uma sonda, um observatório espacial projetado pela NASA que procura planetas extrassolares.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Galileu</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ga.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Nascido na Itália, Galileu Galilei (1564 – 1642) é muitas vezes creditado com a criação do telescópio óptico, embora na verdade ele tenha apenas melhorado modelos existentes. O astrônomo, físico, matemático e filósofo usou a nova ferramenta de observação para descobrir as quatro luas principais de Júpiter (hoje conhecidas como luas de Galileu), bem como os anéis de Saturno. E, apesar de um modelo da Terra girando em volta do sol ter sido primeiramente proposto por Copérnico, levou algum tempo para a teoria ser amplamente aceita, e Galileu é mais conhecido por defendê-la. Galileu acabou sob prisão domiciliar no final de sua vida por causa disso.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Christiaan Huygens</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ch.jpeg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O físico e astrônomo holandês Christiaan Huygens (1629 – 1695) propôs a primeira teoria sobre a natureza da luz, um fenômeno que intriga cientistas há centenas de anos. Suas melhorias no telescópio lhe permitiram fazer as primeiras observações dos anéis de Saturno e descobrir sua lua Titã. Huygens também criou a teoria sobre o estudo da luz e cores descobrindo que, por meio da luz, seria possível a ocorrência de fenômenos de propagação como refração e reflexão.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b> Newton</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/newton.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Com base no trabalho de quem veio antes dele, o astrônomo inglês Sir Isaac Newton (1643 – 1727) é mais famoso por seu trabalho sobre forças, especificamente a gravidade (quem lembra da história da maçã?). Ele calculou três leis que descrevem o movimento das forças entre objetos, conhecidas hoje como leis de Newton.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Einstein</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ei.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">No início do século 20, o físico alemão Albert Einstein (1879 – 1955) tornou-se de um dos mais famosos cientistas do mundo, depois de propor uma nova maneira de olhar para o universo além da compreensão atual. Einstein sugeriu que as leis da física são as mesmas em todo o universo, que a velocidade da luz no vácuo é constante, e que o espaço e o tempo estão ligados em uma entidade conhecida como espaço-tempo, que é distorcida pela gravidade.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Hubble</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/hu.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo americano Edwin Hubble (1899 – 1953) calculou que uma bolha pequena no céu existia fora da Via Láctea. Antes de suas observações, a discussão sobre o tamanho do universo era dividida quanto à possibilidade ou não de existir apenas uma galáxia. Hubble determinou também que o universo estava se expandindo, um cálculo que mais tarde ficou conhecido como lei de Hubble. Suas observações de várias galáxias levaram a criação de um sistema padrão de classificação usado até hoje. Um dos telescópios espaciais mais famosos do mundo leva seu nome, o Telescópio Espacial Hubble, apontado para o céu com o objetivo de estudar o universo.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Hawking</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ha.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Stephen Hawking (nascido em 1942) fez muitas descobertas significativas no campo da cosmologia. Ele propôs que, como o universo tem um começo, provavelmente também terá um fim. Hawking acredita que o mundo não tem nenhum limite ou fronteira. Apesar de ser visto como uma das mentes mais brilhantes desde Einstein, muitos dos livros de Hawking são adaptados e direcionados para o público em geral, já que ele procura educar as pessoas sobre o universo.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Cassini</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/ca.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo italiano Giovanni Cassini (1625 – 1712) mediu o tempo que leva para os planetas Júpiter e Marte girarem, além de descobrir quatro luas de Saturno e as diferenças nos anéis do planeta. Quando a NASA lançou um satélite para orbitar Saturno e suas luas em 1997, ele foi apropriadamente chamado de Cassini.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b></b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/hal.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Edmond Halley (1656 – 1742) foi o cientista britânico que analisou os avistamentos de cometas históricos e propôs que o cometa que apareceu em 1456, 1531, 1607 e 1682 era o mesmo, e que voltaria em 1758. Apesar de ter morrido antes de poder dizer “eu estava certo!”, ele estava mesmo certo, e o cometa foi nomeado em sua honra.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Messier</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/me.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo francês Charles Messier (1730 – 1817) compôs uma base de dados de objetos celestes conhecidos na época como “nebulosas”, que incluía 103 objetos em sua publicação final, embora outros tivessem sido adicionados com base em suas anotações pessoais. Muitos desses objetos são frequentemente listados com o nome do catálogo de Messier, como a Galáxia de Andrômeda, conhecida como M31 (M de Messier, 31 porque é o 31º objeto catalogado). O astrônomo também descobriu 13 cometas ao longo de sua vida.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Herschel</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/he.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo britânico William Herschel (1738 – 1822) catalogou mais de 2.500 objetos do céu profundo. Ele também descobriu Urano e suas duas luas mais brilhantes, duas das luas de Saturno e as calotas polares marcianas. William treinou sua irmã, Caroline Herschel (1750 – 1848), em astronomia, e ela se tornou a primeira mulher a descobrir um cometa, identificando vários outros ao longo de sua vida. A Agência Espacial Europeia criou um observatório com seu nome, o Observatório Espacial Herschel.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Henrietta Leavitt Swann</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/henr.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Henrietta Leavitt Swann (1868 – 1921) foi uma das várias mulheres que trabalharam como um “computador humano” na Universidade de Harvard (EUA), identificando imagens de estrelas variáveis em placas fotográficas. Ela descobriu que o brilho de uma estrela piscando estava relacionado com a frequência com que pulsava. Esta relação permitiu aos astrônomos calcularem as distâncias de estrelas e galáxias, o tamanho da Via Láctea e a expansão do universo. Ela descobriu mais de 1.200 estrelas variáveis em sua vida.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Shapley</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/sh.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo americano Harlow Shapley (1885 – 1972) calculou o tamanho da galáxia Via Láctea e sua localização geral do seu centro. Ele argumentou que os objetos conhecidos como “nebulosas” estavam dentro da galáxia, ao invés de fora dela. Porém, seu nome é um pouco manchado por ele ter discordado incorretamente das observações de Hubble de que o universo tinha outras galáxias além da Via Láctea.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Drake</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/da.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Frank Drake (nascido em 1930) é um dos pioneiros na busca de inteligência extraterrestre. Ele foi um dos fundadores da Busca por Inteligência Extraterrestre (SETI, na sigla em inglês) e idealizador da equação de Drake, uma equação matemática usada para estimar o número de civilizações extraterrestres na Via Láctea capazes de serem detectadas.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Hartmann</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/har.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo americano William K. Hartmann (nascido em 1939) estendeu a teoria mais aceita sobre a formação da lua em 1975. Ele propôs que, após uma colisão com um grande corpo, os detritos que saíram da Terra se uniram para formar a lua.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Carl Sagan</b></p>
+		<table>
+			<tr>
+				<td>
+					<img src="img/car.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">O astrônomo americano Carl Sagan (1934 – 1996) pode não ter sido um grande cientista em comparação com outros dessa lista, mas é um dos mais famosos astrônomos por ter feito importantes estudos científicos nas áreas de ciência planetária, e principalmente por ter popularizado a astronomia mais do que qualquer outro indivíduo. Seus programas de TV e derivados atraíam muitos telespectadores interessados.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Astronomia no Brasil</b></p>
+		<hr class="hr">
+		</center>
+		<p class="sobre">A astronomia tem crescido bastante no Brasil. Somos capacitados a construir instrumentos de classe mundial, somos o único país em desenvolvimento que tem acesso a telescópios de 8 e 4 metros, e um dos poucos países no mundo com acesso a esse tamanho de telescópios em ambos os Hemisférios. Também somos o único país não europeu a fazer parte do Observatório Europeu do Sul, uma organização intergovernamental de pesquisa em astronomia, composta e financiada por quinze países.<br>
+		Não podemos citar grandes cientistas brasileiros que mudaram completamente a visão do universo, mas muitos merecem uma menção honrosa. Recentemente, um astrônomo brasileiro, Rodney Gomes, mudou o rumo da busca por evidências de um planeta no limite de nosso sistema solar. No Observatório Nacional do Brasil, no Rio de Janeiro, ele descobriu que as órbitas irregulares de pequenos corpos gelados além de Netuno implicam que um planeta quatro vezes maior que a Terra está girando em volta do nosso sol nas bordas do sistema solar.</p>
+		<hr class="hr">
+		<img src="img/ein.gif" class="table4">
+		
+
+		<br>
+
+		<!-- Inicio rodapé -->
+        <hr><hr>
+
+        <table class="eee">
+          <tr>
+            <td>
+              <img src="img/logo.png" class="logo1">
+            </td>
+            <td>
+              <br>
+              <a href="http://facebook.com" target="_blank"> <img src="img/fac.jpg" class="logo"></a>
+              <br>
+              <a href="http://Instagram.com" target="_blank"><img src="img/int.png" class="logo"></a>
+            </td>
+            <td>
+              <p class="texto2"><b>Autor: </b>Luan Francisco Savarese <br>Astronomia é cultura</p>
+            </td>
+          </tr>
+        </table>
+
+        <hr><hr>
+      <!-- Fim rodapé -->
+
+
+	</body>
+</html>
