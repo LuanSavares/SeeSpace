@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>SEESPACE</title>
+		<meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
+		<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/denov.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+		<!--Favicon-->
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<style type="text/css">
+			footer#rodape {
+
+			clear: both;
+/*conteudo seja mostrado fora da divisão*/
+		border-top: 1px solid #606060;
+		
+		}
+		footer#rodape p{
+			text-align: center;
+			
+		}
+		</style>
+
+
+
+	</head>
+	<body>
+    <!-- Inicio menu-->
+      <div class="container">
+        <ul id="gn-menu" class="gn-menu-main">
+          <li class="gn-trigger">
+            <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+            <nav class="gn-menu-wrapper">
+
+              <!-- Inicio menu lateral-->
+                <div class="gn-scroller">
+                  <ul class="gn-menu">
+
+                    <li>
+                      <a href="via.html">&nbsp;&nbsp;&nbsp;<img src="img/10.jpg" class="menu3">
+                        &nbsp;Via Láctea
+                      </a>
+                      <!-- <ul class="gn-submenu"> Submenu </ul> -->
+                    </li>
+
+                    <li>
+                      <a href="planetas.html">&nbsp;&nbsp;&nbsp;<img src="img/terra.png" class="menu3">
+                        &nbsp;Planetas
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="Satelites.html">&nbsp;&nbsp;&nbsp;<img src="img/satelite.png" class="menu3">
+                        &nbsp;Satélites
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="estrelas.html">&nbsp;&nbsp;&nbsp;<img src="img/so.png" class="menu2">
+                        &nbsp;Estrelas
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="cientistas.html">&nbsp;&nbsp;&nbsp;<img src="img/al.png" class="menu4">
+                        &nbsp;Ciêntistas Famosos
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="teorias.html">&nbsp;&nbsp;&nbsp;<img src="img/id.png" class="menu4">
+                        &nbsp;Teorias
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="buraco.html">&nbsp;&nbsp;&nbsp;<img src="img/bu.jpg" class="menu3">
+                        &nbsp;Buraco negro
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="buracomi.html">&nbsp;&nbsp;&nbsp;<img src="img/bus.jpg" class="menu3">
+                        &nbsp;Buraco de minhoca
+                      </a>
+                    </li>
+                      
+                  </ul>
+                </div><!-- /gn-scroller -->
+        <!-- Fim menu lateral-->
+              </nav>
+            </li>
+            <!-- Inicio menu superior -->
+            <li><a href="sobre.html">&nbsp;Sobre nós</a></li>
+            <li><a href="noticias.html"><span>&nbsp;Notícias</span></a></li>
+            <li><a href="glossario.html" class="codrops-icon codrops-icon-drop"><span>Sumário</span></a></li>
+          </ul>
+          <header class="tamanho">
+				<br><h1><center><br><br>Buraco negro</center></h1>	
+		  </header> 
+        <!-- Fim menu superior -->
+      </div><!-- /container -->
+      <script src="js/classie.js"></script>
+      <script src="js/gnmenu.js"></script>
+      <script>
+        new gnMenu( document.getElementById( 'gn-menu' ) );
+      </script>
+    <!-- Fim menu-->
+		
+		<hr class="hr">
+		<table>
+			<tr>
+				<td>
+					<img src="img/bur.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Os buracos negros são uma enorme quantidade de massa concentrada em um espaço muito reduzido. Seu campo gravitacional é tão forte que ele atrai para si tudo o que se aproxima dele, inclusive a luz.<br>
+					Segundo Messias, se jogarmos uma bola de tênis para cima com uma enorme velocidade, ela sai da órbita da Terra. Essa é a chamada "velocidade de escape".<br>
+					Escape é uma velocidade tão alta que supera a força da gravidade. No caso dos buracos negros, a velocidade de escape é igual ou maior que a velocidade da luz. Portanto, tudo o que chega perto dele não consegue permanecer fora, pois é atraído pela sua força gravitacional.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Como se formam?</b></p>
+		<hr class="hr">
+		<table>
+			<tr>
+				<td>
+					<img src="img/burac.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Os buracos negros são formados a partir de colapsos gravitacionais de corpos celestes. Esses fenômenos ocorrem quando a pressão interna de um corpo (geralmente estrelas) é insuficiente para manter sua própria massa. Assim, quando o núcleo da estrela entra em colapso devido à gravidade, o corpo celeste explode liberando enormes quantidades de energia em um evento conhecido como <a href="glossario.html" class="link">supernova.</a></p>
+				</td>
+			</tr>
+		</table>
+		<p class="sobre">Durante a supernova, em uma fração de segundo, toda a massa da estrela é comprimida em seu núcleo enquanto se move à aproximadamente 1/4 da velocidade da luz (inclusive, é neste exato momento que os elementos mais pesados do universo são criados).<br>
+		Em seguida, a explosão dará origem a uma estrela de nêutron ou, se a estrela for grande o suficiente, o resultado será a formação de um buraco negro, cuja quantidade astronômica de massa concentrada cria o já mencionado campo gravitacional. Nele, a velocidade de escape (velocidade necessária para que alguma partícula ou radiação resistisse à atração) deve ser, no mínimo, maior que a velocidade da luz.</p>
+		<hr class="hr">
+		<p class="sobre"><b>Qual o tamanho de um buraco negro?</b></p>
+		<hr class="hr">
+		<p class="sobre">Buracos negros existem em diversos tamanhos. Os menores conhecidos pela ciência são chamados de buracos negros primordiais e acredita-se que possuem o tamanho de um átomo, mas com a massa total de uma montanha.<br>
+		Os buracos negros medianos (cuja massa é de até 20 vezes a massa total do sol) são chamados de estelares. Nessa categoria, o menor buraco negro descoberto possui 3.8 vezes a massa solar.<br>
+		Os maiores buracos negros catalogados são chamados de supermassivos, muitas vezes encontrados no centro de galáxias. A título de exemplo, no centro da Via Láctea se encontra o Sagittarius A, um buraco negro com massa equivalente a 4 milhões de vezes a massa do sol.<br>
+		Até o momento, o maior buraco negro conhecido se chama S50014+81, cuja massa equivale a quarenta bilhões de vezes a massa do sol.</p>
+		<hr class="hr">
+		<p class="sobre"><b>Quais os tipos de buracos negros?</b></p>
+		<hr class="hr">
+
+		<p class="sobre">O físico teórico alemão Albert Einstein formulou um conjunto de hipóteses relacionadas à gravitação que serviram como base para o surgimento da física moderna. Esse conjunto de ideias recebeu o nome de Teoria da Relatividade Geral, no qual o cientista fez diversas observações inovadoras acerca dos efeitos gravitacionais dos buracos negros.<br>
+		Para Einstein, os buracos negros são “deformações no espaço-tempo causadas pela quantidade massiva de matéria concentrada”. Suas teorias promoveram um rápido progresso da área e possibilitaram a classificação dos diferentes tipos de buracos negros:<br>
+		<b>Buraco negro de Schwarzschild</b><br>
+		Os buracos negros de Schwarzschild são aqueles que não possuem carga elétrica e também não possuem impulso angular, ou seja não rotacionam em torno do seu eixo.<br>
+		<b>Buraco negro de Kerr</b>
+		Os buracos negros de Kerr não possuem carga elétrica mas rotacionam em torno do seu eixo.<br>
+		<b>Buraco negro de Reissner-Nordstrom</b>
+		Os buracos negros de Reissner-Nordstrom possuem carga elétrica mas não rotacionam em torno do seu eixo.<br>
+		<b>Buraco negro de Kerr-Newman</b>
+		Os buracos negros de Kerr-Newman possuem carga elétrica e rotacionam em torno do seu eixo.<br>
+		Em teoria, todos os tipos de buracos negros eventualmente se tornam buracos negros de Schwarzschild (estáticos e sem carga elétrica) quando perdem energia o suficiente e param de rotacionar. Esse fenômeno é conhecido como Processo Penrose. Nesses casos, a única maneira de diferenciar um buraco negro de Schwarzschild de outro é através da medição da sua massa.<br></p>
+		<hr class="hr">
+		<p class="sobre"><b>Teorias de Stephen Hawking sobre buracos negros</b></p>
+		<hr class="hr">
+		<table>
+			<tr>
+				<td>
+					<img src="img/ha.jpg" class="table">
+				</td>
+				<td>
+					<p class="sobre">Stephen Hawking foi um dos mais influentes físicos e cosmólogos dos séculos 20 e 21. Entre suas inúmeras contribuições, Hawking resolveu diversos teoremas propostos por Einstein que contribuíram para a teoria de que o universo teve início em uma singularidade, reforçando ainda mais a chamada<a href="glossario.html" class="link">Teoria do Big Bang.</a> <br>
+					Hawking também acreditava que buracos negros não são completamente negros, mas emitem pequenas quantidades de radiação térmica. Esse efeito ficou conhecido na física como Radiação Hawking. Esta teoria prevê que os buracos negros perderiam massa com a radiação liberada e, em um processo extremamente lento, diminuiriam até desaparecerem.</p>
+				</td>
+			</tr>
+		</table>
+		<hr class="hr">
+		<p class="sobre"><b>Primeira imagem de um buraco negro</b></p>
+		<hr class="hr">
+		<p class="sobre">A primeira imagem de um buraco negro foi divulgada em abril de 2019, em uma conferência em Bruxelas. Foi encontrado, após 2 anos de observação e pesquisa, pelo projeto internacional denominado Event Horizon Telescope (EHT), que reúne quase uma dúzia de radiotelescópios no mundo, da Europa ao Polo Sul.<br>
+		Na imagem, a única parte visível do buraco negro é o círculo dourado, chamado pelos astrônomos de "event horizon" (horizonte de evento em português) ou "ponto de não-retorno."<br>
+		Já no centro do horizonte de eventos, se localiza uma densidade de massa incalculável, chamada singularidade. A gravidade desse ponto é tão forte, que nenhum objeto ao redor consegue escapar.<br>
+		Em teoria, somente algo que se movesse em uma velocidade superior à velocidade da luz conseguiria resistir ao campo gravitacional de um buraco negro. Por esse motivo, não é possível saber ao certo o que acontece com a matéria que é sugada.<br>
+		O que se vê na imagem é, na verdade, a luz emitida por materiais que circulam ao redor do buraco negro. Essa é a luz captada por telescópios em diferentes partes do mundo. Na prática, seria como usar um enorme telescópio do tamanho da Terra para ver o buraco negro.<br>Mesmo sem ver o buraco negro, cientistas sabem que ele existe por meio dos efeitos ao seu redor.</p>
+		<img src="img/bura.jpg" class="table4">
+		
+
+		<br>
+
+		<footer id="rodape">
+			<br><br>
+			<table>
+				<tr>
+					<td><center>
+						<p class="texto">Curta a nossa página, e fique informado<br><br><a href="http://facebook.com" target="_blank"> <img src="img/fac.jpg" class="logo"></a>&nbsp;&nbsp;<a href="http://Instagram.com" target="_blank"><img src="img/int.png" class="logo"></a> </p>	
+					</td>
+					<td><p class="texto2"><b>Autor: </b>Luan Francisco Savarese <br>Astronomia é cultura</p><img src="img/logo.png" class="logo1"></center></td>
+				</tr>
+			</table>
+		</footer>
+
+
+	</body>
+</html>
